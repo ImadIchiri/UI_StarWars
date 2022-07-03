@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   background-color: var(--background-color);
   padding: 0 24px;
-  overflow-x: hiddden;
+  overflow-x: hidden;
 }
 @media (max-width: 990px) {
   body {
