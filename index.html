@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts 'Montserrat' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome '6.1.1' -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>UI STARS |Challenge</title>
+  </head>
+  <body>
+    <div class="parent">
+      <!-- Content -->
+      <div class="container">
+        <div class="text-container">
+          <div class="text-content" id="text-content">
+            <!-- text will be added using js -->
+          </div>
+          <h2 id="realease-year" class="realease-year">
+            <span class="year-span" data-number="1"></span>
+            <span class="year-span" data-number="2"></span>
+            <span class="year-span" data-number="3"></span>
+            <span class="year-span" data-number="4"></span>
+          </h2>
+        </div>
+        <div class="image-container" id="image-container">
+          <!-- images will be added using js -->
+        </div>
+      </div>
+      <!-- Switcher -->
+      <div class="switcher">
+        <div class="btns">
+          <i id="arrow-left" class="fa-solid fa-arrow-left-long"></i>
+          <i id="arrow-right" class="fa-solid fa-arrow-right-long active"></i>
+        </div>
+        <div class="time-line">
+          <div class="progressive-line" id="progressive-line"></div>
+          <span class="rounded active" data-number="0"></span>
+          <span class="rounded" data-number="1"></span>
+          <span class="rounded" data-number="2"></span>
+          <!-- <span class="rounded" data-number="3"></span> -->
+          <!-- <span class="rounded" data-number="4"></span> -->
+        </div>
+      </div>
+    </div>
+    <script src="moviesList.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
