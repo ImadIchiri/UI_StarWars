@@ -17,9 +17,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
   min-height: 100vh;
   background-color: var(--background-color);
   padding: 0 24px;
+  overflow-x: hiddden;
 }
 @media (max-width: 990px) {
   body {
