@@ -136,6 +136,7 @@ body {
   font-weight: 600;
   letter-spacing: -20px;
   min-width: 447px;
+  user-select: none;
 }
 .text-container .realease-year .year-span.active {
   display: inline-block;
